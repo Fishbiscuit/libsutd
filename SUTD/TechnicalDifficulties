@@ -1,8 +1,8 @@
-def projector()
+def projector():
   switch_on = "Nope. Please call tech support"
   raise Exception(switch_on)
 
-def air_con(temp)
+def air_con(temp):
   if temp > 25:
     print("TURN IT DOWN AND SAVE POWER")
    else:
